@@ -1,0 +1,9 @@
+backend/data/*
+backend/model/*
+backend/try_decode.py
+backend/log/*
+frontend/node_modules/
+__pycache__
+.history
+
+
