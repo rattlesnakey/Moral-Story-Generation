@@ -57,12 +57,12 @@ def preprocess():
             end_index = win_size
             
             while True:
-                    data = token_ids[start_index:end_index]
-                    if not data:
-                        break
-                    train_list.append(data)
-                    start_index += step
-                    end_index += step
+                data = token_ids[start_index:end_index]
+                if not data:
+                    break
+                train_list.append(data)
+                start_index += step
+                end_index += step
 
     
     with open(args.save_path, 'w+') as f:

@@ -2,8 +2,10 @@ backend/data/*
 backend/model/*
 backend/try_decode.py
 backend/log/*
+backend/pretrained_models/
 frontend/node_modules/
 __pycache__
 .history
-
+.vscode/
+backend/wandb/
 

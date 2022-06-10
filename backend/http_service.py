@@ -28,7 +28,8 @@ def generate(moral, context):
         input_ids = moral_ids + [sep_id] 
     
     elif not moral and context:
-        input_ids = context_ids + [sep_id]
+        #! 因为有 post-training, 所以不用 sep_id
+        input_ids = context_ids
 
     else:
         input_ids = [sep_id]
